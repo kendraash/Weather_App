@@ -2,7 +2,7 @@
 
 ##### A place to track the weather.
 
-#### By _**Lindsay Culver, Shannon Mulloy and Kendra Ash**_
+#### By _**Kendra Ash, Shannon Mulloy and Lindsay Culver**_
 
 ## Description
 
@@ -25,20 +25,16 @@ _View App:_ https://github.com/kendraash/Weather_App.git
 * _Forecast.io API_
 * _Geocoder_
 
-
+## Setup 
+1. Open a command terminal
+2. Clone `https://github.com/kendraash/Weather_App.git`
+3. `cd Weather_App` to navigate to the project directory
 ## Database Setup/ Installation
-_Clone https://github.com/kendraash/Weather_App.git_
-_In rake:_<br>
-_db:setup, (The seeded data will be loaded with db:setup.)_<br>
-_all database tables listed in schema.rb_
-<br>
-
-_Webserver testing:_
-* _Install required gems_
-* _$ bundle install_
-* _rake db:test:prepare_
-* _$ rails server_
-* _Navigate to localhost:3000_
+4. `psql` in a new tab to start postgres
+5. `rake db:setup` To make database schema.
+6. `bundle install` Install required gems
+7. `rake db:test:prepare` to copy to test database
+8. `navigate to localhost:3000` to view on the web browser
 
 ### Legal
 
