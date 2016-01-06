@@ -27,7 +27,7 @@ _View App:_ https://github.com/kendraash/Weather_App.git
 
 
 ## Database Setup/ Installation
-
+_Clone https://github.com/kendraash/Weather_App.git_
 _In rake:_<br>
 _db:setup, (The seeded data will be loaded with db:setup.)_<br>
 _all database tables listed in schema.rb_
